@@ -1,0 +1,114 @@
+*{
+    padding: 0%;
+    margin: auto;
+    box-sizing: border-box;
+
+}
+html{
+    font-size: 10;
+}
+
+.countainer{
+    width: 100 ;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*HERO SECTİON */
+.hero{
+    min-height: 80vh;
+    width: 100%;
+    padding-top: 50px;
+    background-color: black;
+    display: flex;
+    flex-direction:column-reverse ;
+    justify-content: center;
+    align-items: center;
+}
+.hero .hero-info{
+    width: 100%;
+    text-align: center;  
+}
+.hero .hero-info-heading{
+    font-size: 5rem;
+    font-weight: 1000;
+    color: whitesmoke;
+    text-align: center;
+}
+.hero .hero-info .hero-info-subheading{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: whitesmoke;
+    text-align: center;
+}
+.hero .hero-info .hero-info-button{
+    margin-top: 30px;
+    padding: 30rem 30rem;
+    display: inline-block;
+    color: white;
+    text-decoration:none;
+    justify-content: center;
+    letter-spacing: .8rem;
+    background-color: rgba(85, 85, 85, 0.534);
+
+}
+.hero .hero-img{
+    height: auto;
+    width: 80%;
+    margin-bottom: 3rem;
+
+}
+.hero .hero-img img{
+    height: 100%;
+    width: 100%;
+}
+
+/*END HERO SECTİON */
+/*BİLGİ SECTİO*/
+.bilgi{
+    width: 100%;
+    min-width: 50vh;
+    padding: 10rem 5rem;
+    flex-direction: column;
+}
+.bilgi .bilgi-info{
+    text-align: center;
+}
+.bilgi .bilgi-info .bilgi-info-heading{
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    color: black;
+}
+.bilgi .bilgi-info .bilgi-info-desc{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-top: 10px;
+}
+.bilgi .bilgi-img .bilgi-img-wrapper{
+    margin-top: 50px;
+    height: auto;
+    max-width: 4000px;
+    position: relative;
+    display: inline-block;
+}
+.bilgi .bilgi-img .bilgi-img-wrapper img{ 
+    height: 100%;
+    width: 100%;
+}
+.bilgi .bilgi-img .bilgi-img-wrapper::after{
+    position: relative;
+    content: '';
+    right: -5rem;
+    top: 50%;
+    transform: translate(-50%);
+    width: 70%;
+    height: 120%;
+    background-color: rgba(34, 33, 33, 0.158);
+    z-index: -1;
+}
+
+/*END BİLGİ SECTİO*/
